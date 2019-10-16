@@ -5,4 +5,5 @@ To batch upscale run
 ```shell
 > docker run -v /indir:/in -v /outdir:/out infanf/anime4k
 ```
-make sure that the indir only contains images. Working on this issue.
+
+the container automatically upscale all PNGs in your `/indir` and put them in your `/outdir`.
